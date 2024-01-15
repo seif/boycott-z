@@ -21,7 +21,7 @@
     "default_popup": "popup/popup.html"
   },
   "background": {
-    "service_worker": "browsers-adapters/chrome/worker-listeners.js",
+    "scripts": ["browsers-adapters/chrome/worker-listeners.js"],
     "type": "module"
   },
   "manifest_version": 3
